@@ -1,0 +1,24 @@
+.sidebar-Row {
+  display: flex;
+  align-items: center;
+}
+.sidebar-Rowicon {
+  color: #606060;
+  font-size: large;
+}
+.sidebar-rowtittle {
+  margin-left: 20px;
+  font-size: 12px;
+  font-weight: 500;
+  flex: 1;
+}
+.side-bar:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.sidebar-Row:hover > .sidebar-Rowicon {
+  color: red;
+}
+.side-bar:hover > .sidebar-rowtittle {
+  font-weight: bold;
+}
