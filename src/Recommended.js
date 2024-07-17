@@ -5,7 +5,6 @@ import "./Recommended.css";
 function Recommended() {
   return (
     <div className="rec-vedio">
-      <h2>Recommended</h2>
       <div className="recommendedvideos-videos">
         <Videocard
           tittle="become a web developer in 10 minutes|2019/2020"
